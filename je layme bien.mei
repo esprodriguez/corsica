@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -11,7 +8,7 @@
       </fileDesc>
       <encodingDesc xml:id="ekxqx701">
          <appInfo xml:id="aulpase">
-            <application xml:id="am1ybuh1" enddate="2024-05-14T14:42:30" startdate="2024-05-14T14:41:40" version="1.0.14">
+            <application xml:id="am1ybuh1" enddate="2024-05-14T15:44:30" startdate="2024-05-14T14:41:40" version="1.0.14">
                <name xml:id="n2ee4be">mei-friend</name>
                <p xml:id="phiunk5">First edit by mei-friend 1.0.14, 7 May 2024.</p>
             </application>
@@ -34,7 +31,7 @@
             <staffGrp xml:id="s2rucd3">
               <staffDef xml:id="slkucmu2" lines="5" n="1" notationtype="mensural"/>
               <staffDef xml:id="su66065" lines="5" n="2" notationtype="mensural"/>
-              <staffDef xml:id="sfc3bf8" lines="5" n="3" notationtype="mensural"/>
+              <staffDef xml:id="sfc3bf8" clef.line="4" clef.shape="C" keysig="1f" lines="5" mensur.sign="C" mensur.slash="1" n="3" notationtype="mensural" prolatio="3" tempus="2"/>
               <staffDef xml:id="sqckaer1" lines="5" n="4" notationtype="mensural"/>
             </staffGrp>
           </scoreDef>
@@ -48,14 +45,20 @@
             <staff xml:id="sucrva6" n="2">
               <layer xml:id="lbfbdq91" n="1">
               <pb xml:id="pkj414p2" facs="#lerma-p16"/>
-                <!-- music content goes in here -->
               </layer>
             </staff>
             <pb xml:id="p78qdsp2" facs="#lerma-p17"/>
             <staff xml:id="screb2b1" n="3">
               <layer xml:id="l09096o2" n="1">
               <pb xml:id="p7aw60u1" facs="#lerma-p17"/>
-                <!-- music content goes in here -->
+                 <rest xml:id="rgc1l221" dur="minima" oloc="4" ploc="d"/>
+                 <rest xml:id="r1tlejr2" dur="minima"/>
+                 <note xml:id="nknwsa11" dur="minima" oct="4" pname="c"/>
+                 <accid xml:id="abqffum1" accid="f" oloc="4" ploc="e"/>
+                 <note xml:id="nt3auh21" dur.quality="perfecta" accid.ges="f" dur="minima" oct="4" pname="e"/>
+                 <dot form="aug"/>
+                 <note xml:id="n6oub681" dur="semiminima" oct="4" pname="d"/>
+                 
               </layer>
             </staff>
             <staff xml:id="sgg977o1" n="4">
